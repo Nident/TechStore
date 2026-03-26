@@ -1,0 +1,107 @@
+{
+  "store": {
+    "id": 1,
+    "name": "TechStore",
+    "currency": "RUB",
+    "city": "Москва",
+    "categories": [
+      "Смартфоны",
+      "Ноутбуки",
+      "Телевизоры",
+      "Наушники",
+      "Аксессуары"
+    ]
+  },
+  "products": [
+    {
+      "id": 1001,
+      "name": "iPhone 15 128GB",
+      "category": "Смартфоны",
+      "brand": "Apple",
+      "price": 89990,
+      "oldPrice": 94990,
+      "inStock": true,
+      "stock": 12,
+      "rating": 4.9,
+      "specs": {
+        "color": "Black",
+        "memory": "128GB",
+        "screen": "6.1\"",
+        "battery": "3349 mAh"
+      },
+      "tags": ["new", "popular", "smartphone"]
+    },
+    {
+      "id": 1002,
+      "name": "Samsung Galaxy S24 256GB",
+      "category": "Смартфоны",
+      "brand": "Samsung",
+      "price": 79990,
+      "oldPrice": 84990,
+      "inStock": true,
+      "stock": 8,
+      "rating": 4.8,
+      "specs": {
+        "color": "Silver",
+        "memory": "256GB",
+        "screen": "6.2\"",
+        "battery": "4000 mAh"
+      },
+      "tags": ["android", "flagship"]
+    },
+    {
+      "id": 1003,
+      "name": "MacBook Air 13 M3",
+      "category": "Ноутбуки",
+      "brand": "Apple",
+      "price": 129990,
+      "oldPrice": 134990,
+      "inStock": true,
+      "stock": 5,
+      "rating": 4.9,
+      "specs": {
+        "cpu": "Apple M3",
+        "ram": "8GB",
+        "storage": "256GB SSD",
+        "display": "13.6\""
+      },
+      "tags": ["laptop", "ultrabook"]
+    },
+    {
+      "id": 1004,
+      "name": "LG OLED C3 55",
+      "category": "Телевизоры",
+      "brand": "LG",
+      "price": 119990,
+      "oldPrice": 129990,
+      "inStock": false,
+      "stock": 0,
+      "rating": 4.7,
+      "specs": {
+        "display": "55\" OLED",
+        "resolution": "3840x2160",
+        "smartTV": true,
+        "refreshRate": "120Hz"
+      },
+      "tags": ["tv", "oled", "4k"]
+    },
+    {
+      "id": 1005,
+      "name": "Sony WH-1000XM5",
+      "category": "Наушники",
+      "brand": "Sony",
+      "price": 34990,
+      "oldPrice": 37990,
+      "inStock": true,
+      "stock": 20,
+      "rating": 4.8,
+      "specs": {
+        "type": "Wireless",
+        "noiseCancelling": true,
+        "batteryLife": "30h",
+        "color": "White"
+      },
+      "tags": ["headphones", "wireless", "premium"]
+    }
+  ]
+}
